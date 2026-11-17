@@ -1,0 +1,30 @@
+{
+  "input": {
+    "start": 0,
+    "end": 8,
+    "target": 4,
+    "records": [
+      {
+        "start": -1,
+        "end": 3,
+        "approved": true
+      },
+      {
+        "start": 1,
+        "end": 4,
+        "approved": true
+      },
+      {
+        "start": 3,
+        "end": 11,
+        "approved": false
+      }
+    ]
+  },
+  "expected": {
+    "elapsed": 8,
+    "paused": 4,
+    "active": 4,
+    "met": true
+  }
+}
