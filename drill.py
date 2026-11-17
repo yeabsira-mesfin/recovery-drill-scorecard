@@ -17,6 +17,10 @@ def inventory(document):
 
 
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "catalog":
+        from domain import PROJECT, example_payload, validate_payload
+        from evidence_catalog.cli import main as catalog_main
+        return catalog_main(validate_payload, PROJECT, sys.argv[2:], sample=example_payload)
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("inventory").add_argument("file", type=Path)

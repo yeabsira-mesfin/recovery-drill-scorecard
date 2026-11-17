@@ -13,3 +13,7 @@ Use synthetic data and temporary files. The expected values belong only to the a
 ## Final questionnaire
 
 Copy the new live compare problem ID from the platform. Enter actual active hours (minutes divided by 60). Primary language: Python. Task type: feature implementation and regression testing. Source: a new MIT-licensed starter prepared with Codex. Use the sections above for task description, how to judge completion and reviewer notes. Record actual outcome, completion evidence, changed files, commands, turn count, flag count and observed flag categories. Include exact quotes or turn references when explaining a flag. Leave run-specific fields open until the session ends.
+
+## Existing baseline to preserve
+
+The codebase now includes the evidence catalog documented in CATALOG.md. Preserve its import transactions, tenant scoping, reports, snapshots and bundle validation. The assignment adds the decision workflow and reporting described above. Verify the original inventory command, the catalog walkthrough and all existing tests after implementing the feature.

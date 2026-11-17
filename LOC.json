@@ -1,0 +1,100 @@
+{
+  "method": "Python token lines excluding comments and standalone string expressions",
+  "totals": {
+    "application": 1132,
+    "tests_and_acceptance": 313,
+    "tools": 38
+  },
+  "files": [
+    {
+      "path": "acceptance.py",
+      "category": "tests_and_acceptance",
+      "code": 37
+    },
+    {
+      "path": "catalog.py",
+      "category": "application",
+      "code": 4
+    },
+    {
+      "path": "domain.py",
+      "category": "application",
+      "code": 13
+    },
+    {
+      "path": "drill.py",
+      "category": "application",
+      "code": 31
+    },
+    {
+      "path": "evidence_catalog/__init__.py",
+      "category": "application",
+      "code": 1
+    },
+    {
+      "path": "evidence_catalog/bundles.py",
+      "category": "application",
+      "code": 106
+    },
+    {
+      "path": "evidence_catalog/cli.py",
+      "category": "application",
+      "code": 211
+    },
+    {
+      "path": "evidence_catalog/codec.py",
+      "category": "application",
+      "code": 102
+    },
+    {
+      "path": "evidence_catalog/quality.py",
+      "category": "application",
+      "code": 36
+    },
+    {
+      "path": "evidence_catalog/query.py",
+      "category": "application",
+      "code": 80
+    },
+    {
+      "path": "evidence_catalog/reports.py",
+      "category": "application",
+      "code": 61
+    },
+    {
+      "path": "evidence_catalog/snapshots.py",
+      "category": "application",
+      "code": 89
+    },
+    {
+      "path": "evidence_catalog/storage.py",
+      "category": "application",
+      "code": 206
+    },
+    {
+      "path": "evidence_catalog/validation.py",
+      "category": "application",
+      "code": 121
+    },
+    {
+      "path": "evidence_catalog/web.py",
+      "category": "application",
+      "code": 71
+    },
+    {
+      "path": "tests/test_catalog.py",
+      "category": "tests_and_acceptance",
+      "code": 266
+    },
+    {
+      "path": "tests/test_inventory.py",
+      "category": "tests_and_acceptance",
+      "code": 10
+    },
+    {
+      "path": "tools/count_loc.py",
+      "category": "tools",
+      "code": 38
+    }
+  ]
+}
